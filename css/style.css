@@ -120,6 +120,10 @@ pre {
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
 }
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 .showcase-text {
   animation: slideInFromLeft 1s ease-in;
 }

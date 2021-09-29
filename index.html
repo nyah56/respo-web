@@ -46,6 +46,10 @@
 
         <div class="showcase-form card">
           <h2>Request a Demo</h2>
+        <form  name="contact" method="POST" data-netlify="true"netlify-honeypot="bot-field">
+          <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
           <div class="form-control">
             <input type="text" name="name" placeholder="Name" required />
           </div>
@@ -61,6 +65,7 @@
             <input type="text" name="email" placeholder="Email" required />
           </div>
           <input type="submit" value="Send" class="btn btn-primary" />
+        </form>
         </div>
       </div>
     </section>
