@@ -240,6 +240,15 @@ pre {
   margin-inline: 10px;
   /*margin: 0 10px;*/
 }
+.footer .socials .git:hover {
+  color: #333;
+}
+.footer .socials .fb:hover {
+  color: var(--secondary-color);
+}
+.footer .socials .ig:hover {
+  color: rgb(95, 0, 107);
+}
 /*animation*/
 @keyframes slideInFromLeft {
   0% {
