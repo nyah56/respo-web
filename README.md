@@ -1,3 +1,3 @@
 # respo-web
-Dummy For Init :D(only front-end)
+Dummy For Init :D(only UI)
 link:https://dummyinit.netlify.app/
